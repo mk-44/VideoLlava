@@ -5,3 +5,8 @@ model_cache/
 *.pt
 *.bin
 *.safetensors
+.env
+.env.*
+__pycache__/
+*.pyc
+.DS_Store
