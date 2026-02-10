@@ -1,7 +1,17 @@
-#VideoLlava
+# VideoLlava
+
 VideoLlava is a model that allows the multi-modality between text, images and videos.
 It allows us to ask questions from videos and text and provides great response.
-The video-llava-implementation.ipynb file shows the entire archtitecture involved and loads weights from hugging-face.
+
+## Article
+
+[Building Video-LLaVA from Scratch: An Implementation Guide](https://medium.com/@mayankkeshari34/building-video-llava-from-scratch-an-implementation-guide-f89871400548)
+
+## Implementation
+
+The `video-llava-implementation.ipynb` file shows the entire architecture involved and loads weights from Hugging Face.
+
+## How It Works
 
 Video-Llava performs well as the distribution space of image and video encoders are aligned, while training of video-encoder model.
 This is done by using CLIP text encoder and aligning the video encoder output to it.
